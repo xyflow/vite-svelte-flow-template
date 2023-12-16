@@ -11,7 +11,7 @@ npx degit xyflow/vite-svelte-flow-template app-name
 ## Installation
 
 ```sh
-npm run install
+npm install
 ```
 
 ## Development
