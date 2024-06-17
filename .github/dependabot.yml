@@ -8,4 +8,4 @@ updates:
     schedule:
       interval: "daily"
     allow:
-      name: '@xyflow/svelte'
+      dependency-name: '@xyflow/svelte'
