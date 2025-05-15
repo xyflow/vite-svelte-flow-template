@@ -19,7 +19,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "@xyflow/svelte": "^1.0.0"
+    "@xyflow/svelte": "^1.0.1"
   },
   "packageManager": "pnpm@10.11.0"
 }
