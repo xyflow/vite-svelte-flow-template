@@ -10,20 +10,20 @@ importers:
     dependencies:
       '@xyflow/svelte':
         specifier: ^1.0.0
-        version: 1.0.0(svelte@5.28.6)
+        version: 1.0.2(svelte@5.31.1)
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.3
-        version: 5.0.3(svelte@5.28.6)(vite@6.3.5)
+        version: 5.0.3(svelte@5.31.1)(vite@6.3.5)
       '@tsconfig/svelte':
         specifier: ^5.0.4
         version: 5.0.4
       svelte:
-        specifier: ^5.28.6
-        version: 5.28.6
+        specifier: ^5.31.1
+        version: 5.31.1
       svelte-check:
         specifier: ^4.1.7
-        version: 4.1.7(picomatch@4.0.2)(svelte@5.28.6)(typescript@5.8.3)
+        version: 4.2.1(picomatch@4.0.2)(svelte@5.31.1)(typescript@5.8.3)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -357,13 +357,13 @@ packages:
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
 
-  '@xyflow/svelte@1.0.0':
-    resolution: {integrity: sha512-TTEdH7kc3vh6mcJjaWX6A+o6exxU03OlqQB4SDIsrHDhmC0V65/Hghy66Z0VGQ8x5V+QIVFjcWnyIfJNvkVlTQ==}
+  '@xyflow/svelte@1.0.2':
+    resolution: {integrity: sha512-biNnzWRmKF/m7t7iY9wt3/KhoTyA8XGbS0Vix3HCL9vrULDF14R1VsMIOxKZib1GJfG+f1/cD2dQ9kplfPLs/Q==}
     peerDependencies:
       svelte: ^5.25.0
 
-  '@xyflow/system@0.0.59':
-    resolution: {integrity: sha512-+xgqYhoBv5F10TQx0SiKZR/DcWtuxFYR+e/LluHb7DMtX4SsMDutZWEJ4da4fDco25jZxw5G9fOlmk7MWvYd5Q==}
+  '@xyflow/system@0.0.61':
+    resolution: {integrity: sha512-TsZG/Ez8dzxX6/Ol44LvFqVZsYvyz6dpDlAQZZk6hTL7JLGO5vN3dboRJqMwU8/Qtr5IEv5YBzojjAwIqW1HCA==}
 
   acorn@8.14.1:
     resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
@@ -522,16 +522,16 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  svelte-check@4.1.7:
-    resolution: {integrity: sha512-1jX4BzXrQJhC/Jt3SqYf6Ntu//vmfc6VWp07JkRfK2nn+22yIblspVUo96gzMkg0Zov8lQicxhxsMzOctwcMQQ==}
+  svelte-check@4.2.1:
+    resolution: {integrity: sha512-e49SU1RStvQhoipkQ/aonDhHnG3qxHSBtNfBRb9pxVXoa+N7qybAo32KgA9wEb2PCYFNaDg7bZCdhLD1vHpdYA==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
-  svelte@5.28.6:
-    resolution: {integrity: sha512-9qqr7mw8YR9PAnxGFfzCK6PUlNGtns7wVavrhnxyf3fpB1mP/Ol55Z2UnIapsSzNNl3k9qw7cZ22PdE8+xT/jQ==}
+  svelte@5.31.1:
+    resolution: {integrity: sha512-09fup3U7NQobUCUJnLhed6pxG6MzUS8rPsALB5Jr8m8u3pVKITs0ejYiKS/wsVjfkXHvKc2g260KA8o7dWypHA==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.13:
@@ -756,31 +756,31 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.40.0':
     optional: true
 
-  '@svelte-put/shortcut@4.1.0(svelte@5.28.6)':
+  '@svelte-put/shortcut@4.1.0(svelte@5.31.1)':
     dependencies:
-      svelte: 5.28.6
+      svelte: 5.31.1
 
   '@sveltejs/acorn-typescript@1.0.5(acorn@8.14.1)':
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.6)(vite@6.3.5))(svelte@5.28.6)(vite@6.3.5)':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.31.1)(vite@6.3.5))(svelte@5.31.1)(vite@6.3.5)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.28.6)(vite@6.3.5)
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.31.1)(vite@6.3.5)
       debug: 4.4.0
-      svelte: 5.28.6
+      svelte: 5.31.1
       vite: 6.3.5
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.6)(vite@6.3.5)':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.31.1)(vite@6.3.5)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.6)(vite@6.3.5))(svelte@5.28.6)(vite@6.3.5)
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.31.1)(vite@6.3.5))(svelte@5.31.1)(vite@6.3.5)
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
-      svelte: 5.28.6
+      svelte: 5.31.1
       vite: 6.3.5
       vitefu: 1.0.6(vite@6.3.5)
     transitivePeerDependencies:
@@ -811,13 +811,13 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
-  '@xyflow/svelte@1.0.0(svelte@5.28.6)':
+  '@xyflow/svelte@1.0.2(svelte@5.31.1)':
     dependencies:
-      '@svelte-put/shortcut': 4.1.0(svelte@5.28.6)
-      '@xyflow/system': 0.0.59
-      svelte: 5.28.6
+      '@svelte-put/shortcut': 4.1.0(svelte@5.31.1)
+      '@xyflow/system': 0.0.61
+      svelte: 5.31.1
 
-  '@xyflow/system@0.0.59':
+  '@xyflow/system@0.0.61':
     dependencies:
       '@types/d3-drag': 3.0.7
       '@types/d3-selection': 3.0.11
@@ -988,19 +988,19 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.1.7(picomatch@4.0.2)(svelte@5.28.6)(typescript@5.8.3):
+  svelte-check@4.2.1(picomatch@4.0.2)(svelte@5.31.1)(typescript@5.8.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.3
       fdir: 6.4.3(picomatch@4.0.2)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.28.6
+      svelte: 5.31.1
       typescript: 5.8.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte@5.28.6:
+  svelte@5.31.1:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
