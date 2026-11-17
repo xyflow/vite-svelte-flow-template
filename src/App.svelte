@@ -8,7 +8,7 @@
     type Edge,
   } from "@xyflow/svelte";
 
-  import "@xyflow/svelte/dist/style.css";
+  import "@xyflow/svelte/xy-theme.css";
 
   let nodes = $state.raw<Node[]>([
     {
